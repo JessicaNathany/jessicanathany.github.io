@@ -7,7 +7,7 @@ lang: pt
 <div class="home-intro">
   <img src="/assets/img/perfil.jpg" alt="Foto Jéssica" class="profile-pic">
   <h1>Bem-vindos ao meu blog!</h1>
-  <p>Sou Jéssica, desenvolvedora de software e fundadora do Café Debug.☕ Aqui compartilho artigos sobre tecnologia, projetos e ideias.
+  <p>Sou Jéssica, desenvolvedora de software e fundadora do Café Debug.☕ Aqui compartilho artigos sobre tecnologia, projetos e ideias.</p>
 </div>
 
 <nav class="menu">
