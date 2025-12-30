@@ -10,7 +10,7 @@ tags: [github-pages, jekyll, blog, tutorial]
 
 Criar um blog técnico é uma excelente forma de compartilhar conhecimento e construir sua presença online como desenvolvedor. Neste guia completo, vou te mostrar como criar um blog profissional no GitHub Pages usando Jekyll, totalmente gratuito e com domínio personalizado.
 
-## 🎯 Por que GitHub Pages?
+## Por que GitHub Pages?
 
 - **✅ Gratuito** - Hospedagem sem custo
 - **✅ Integração Git** - Versionamento automático  
@@ -19,7 +19,7 @@ Criar um blog técnico é uma excelente forma de compartilhar conhecimento e con
 - **✅ HTTPS automático** - Segurança incluída
 - **✅ Deploy automático** - A cada push
 
-## 🚀 Passo 1: Configuração inicial
+##  Passo 1: Configuração inicial
 
 ### 1.1. Criando o repositório
 
@@ -54,7 +54,7 @@ seuusername.github.io/
 └── Gemfile              # Dependências Ruby
 ```
 
-## 🔧 Passo 2: Configurando o Jekyll
+## Passo 2: Configurando o Jekyll
 
 ### 2.1. Arquivo `_config.yml`
 
@@ -101,7 +101,7 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 ```
 
-## 🎨 Passo 3: Criando layouts
+## Passo 3: Criando layouts
 
 ### 3.1. Layout principal (`_layouts/default.html`)
 
@@ -148,9 +148,9 @@ layout: default
   <header class="post-header">
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
-      📅 Publicado em {{ page.date | date: "%d/%m/%Y" }}
+       Publicado em {{ page.date | date: "%d/%m/%Y" }}
       {% if page.tags and page.tags.size > 0 %}
-        <br>🏷️ Tags: 
+        <br> Tags: 
         {% for tag in page.tags %}
           <span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
         {% endfor %}
@@ -169,7 +169,7 @@ layout: default
 </article>
 ```
 
-## 🎯 Passo 4: Página inicial
+## Passo 4: Página inicial
 
 ### 4.1. Arquivo `index.md`
 
@@ -216,7 +216,7 @@ title: "Início"
 {% endif %}
 ```
 
-## 💅 Passo 5: Estilização CSS
+## Passo 5: Estilização CSS
 
 ### 5.1. Arquivo `assets/css/style.css`
 
@@ -446,7 +446,7 @@ body {
 }
 ```
 
-## 📝 Passo 6: Criando seu primeiro artigo
+## Passo 6: Criando seu primeiro artigo
 
 ### 6.1. Formato do post
 
@@ -485,7 +485,7 @@ Espero que tenham gostado!
 - **Tags**: ajudam na organização
 - **Excerpt**: resumo que aparece na listagem
 
-## 🚀 Passo 7: Deploy e configuração
+## Passo 7: Deploy e configuração
 
 ### 7.1. Ativando GitHub Pages
 
@@ -510,7 +510,7 @@ git push origin main
 
 Aguarde alguns minutos e acesse `https://seuusername.github.io`
 
-## 🛠️ Passo 8: Desenvolvimento local (opcional)
+## Passo 8: Desenvolvimento local (opcional)
 
 ### 8.1. Usando GitHub Codespaces
 
@@ -535,7 +535,7 @@ bundle exec jekyll serve
 
 Acesse `http://localhost:4000` para ver o site local.
 
-## 🎯 Próximos passos
+## Próximos passos
 
 ### Funcionalidades avançadas:
 
@@ -552,7 +552,7 @@ Acesse `http://localhost:4000` para ver o site local.
 - **Colaboração**: Outros podem contribuir via PR
 - **Gratuito**: Zero custos de hospedagem
 
-## 📚 Recursos úteis
+## Recursos úteis
 
 - [Documentação Jekyll](https://jekyllrb.com/docs/)
 - [GitHub Pages Docs](https://docs.github.com/pt/pages)

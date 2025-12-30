@@ -9,6 +9,9 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+# Desabilita tema padrão para usar CSS customizado
+theme:
+
 nav:
   - label: "Quem sou"
     url: "/quem-sou"
