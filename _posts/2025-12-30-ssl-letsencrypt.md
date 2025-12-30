@@ -7,7 +7,6 @@ excerpt: "Aprenda como implementei certificados SSL gratuitos com Let's Encrypt 
 tags: [ssl, security, devops]
 ---
 
-
 ## Introdução
 
 
@@ -23,7 +22,7 @@ Embora o site do Café Debug não armazene informações sensíveis de usuários
 
 <br />
 <div align="center">
-  <img src="/posts/img-artigos/cloudflare-ssl.png" alt="imagem artigo cloudflare sobre SSL" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/assets/img/cloudflare-ssl.png" alt="imagem artigo cloudflare sobre SSL" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 <br />
 

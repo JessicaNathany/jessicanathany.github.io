@@ -2,6 +2,7 @@
 layout: post
 title: "Como criar um blog completo no GitHub Pages com Jekyll - Guia definitivo"
 date: 2025-12-30
+cover: "/assets/img/githubpages.jpg"
 excerpt: "Guia completo passo a passo para criar seu próprio blog no GitHub Pages usando Jekyll, desde a configuração inicial até a publicação de artigos."
 tags: [github-pages, jekyll, blog, tutorial]
 ---
@@ -12,12 +13,12 @@ Criar um blog técnico é uma excelente forma de compartilhar conhecimento e con
 
 ## Por que GitHub Pages?
 
-- **✅ Gratuito** - Hospedagem sem custo
-- **✅ Integração Git** - Versionamento automático  
-- **✅ Jekyll integrado** - Gerador de sites estáticos
-- **✅ Domínio personalizado** - `seuusername.github.io`
-- **✅ HTTPS automático** - Segurança incluída
-- **✅ Deploy automático** - A cada push
+- **Gratuito** - Hospedagem sem custo
+- **Integração Git** - Versionamento automático  
+- **Jekyll integrado** - Gerador de sites estáticos
+- **Domínio personalizado** - `seuusername.github.io`
+- **HTTPS automático** - Segurança incluída
+- **Deploy automático** - A cada push
 
 ##  Passo 1: Configuração inicial
 
@@ -560,5 +561,3 @@ Acesse `http://localhost:4000` para ver o site local.
 - [Markdown Guide](https://www.markdownguide.org/)
 
 ---
-
-**Parabéns! 🎉** Agora você tem um blog profissional funcionando no GitHub Pages. Comece a escrever e compartilhar seu conhecimento com a comunidade!
