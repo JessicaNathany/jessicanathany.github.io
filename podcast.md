@@ -6,7 +6,6 @@ title: Podcast
 
 ### 🎙️ Café Debug
 
-### Sobre o Podcast
 
 Café Debug é um podcast dedicado ao universo da ciência e tecnologia. Desde sua fundação em 2017, o programa tem se destacado por trazer especialistas do setor para discutir uma ampla variedade de tópicos, incluindo:
 

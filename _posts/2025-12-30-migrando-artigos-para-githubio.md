@@ -8,7 +8,7 @@ excerpt: "Guia completo passo a passo para criar seu próprio blog no GitHub Pag
 tags: [github-pages, jekyll, blog, tutorial]
 ---
 
-# Como criar um blog completo no GitHub Pages com Jekyll - Guia definitivo
+## Introdução
 
 Criar um blog técnico é uma excelente forma de compartilhar conhecimento e construir sua presença online como desenvolvedor. Neste guia completo, vou te mostrar como criar um blog profissional no GitHub Pages usando Jekyll, totalmente gratuito e com domínio personalizado.
 
