@@ -22,53 +22,53 @@ lang: en
   </div>
   <div class="about-content">
     <section class="bio-section">
-      <h2>📋 Sobre mim</h2>
-      <p>Sou desenvolvedora de software há pelo menos <strong>12 anos</strong>, com foco na linguagem <strong>C#</strong> e plataforma <strong>.NET</strong>. Pós-graduada em <em>Arquitetura e Desenvolvimento de Software</em> pela FIAP, e podcaster do Café Debug ☕.</p>
-      <p>Minha missão é compartilhar conhecimento sobre desenvolvimento, arquitetura de software e crescimento profissional na área de tecnologia.</p>
+      <h2>📋 About me</h2>
+      <p>I'm a software developer with at least <strong>12 years</strong> of experience, focusing on <strong>C#</strong> language and <strong>.NET</strong> platform. I have a post-graduate degree in <em>Software Architecture and Development</em> from FIAP, and I'm a podcaster at Café Debug ☕.</p>
+      <p>My mission is to share knowledge about development, software architecture, and professional growth in the technology field.</p>
     </section>
     <section class="achievements-section">
-      <h2>🏆 Realizações</h2>
+      <h2>🏆 Achievements</h2>
       <div class="achievement-card">
         <div class="achievement-icon">📚</div>
         <div class="achievement-content">
-          <h3>Livro Publicado</h3>
-          <p><strong>Carreira Dev - Hábitos para evoluir no desenvolvimento de software para além do código</strong></p>
-          <p>Um guia prático com hábitos essenciais para desenvolvedores que querem crescer na carreira tech.</p>
-          <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev" target="_blank" class="cta-link">Ver livro →</a>
+          <h3>Published Book</h3>
+          <p><strong>Dev Career - Habits to Evolve in Software Development Beyond Code</strong></p>
+          <p>A practical guide with essential habits for developers who want to grow in their tech career.</p>
+          <a href="https://www.casadocodigo.com.br/products/livro-carreira-dev" target="_blank" class="cta-link">View book →</a>
         </div>
       </div>
       <div class="achievement-card">
         <div class="achievement-icon">🎙️</div>
         <div class="achievement-content">
-          <h3>Podcast Café Debug</h3>
-          <p>Co-host do podcast sobre desenvolvimento, arquitetura de software, operações e carreira em tecnologia.</p>
-          <p>Discussões técnicas e práticas para profissionais da área.</p>
-          <a href="/podcast" class="cta-link">Ouvir episódios →</a>
+          <h3>Café Debug Podcast</h3>
+          <p>Co-host of the podcast about development, software architecture, operations, and technology careers.</p>
+          <p>Technical and practical discussions for professionals in the field.</p>
+          <a href="/podcast-en" class="cta-link">Listen to episodes →</a>
         </div>
       </div>
     </section>
     <section class="expertise-section">
-      <h2>🛠️ Especialidades</h2>
+      <h2>🛠️ Expertise</h2>
       <div class="skills-grid">
         <div class="skill-item">
           <span class="skill-emoji">⚙️</span>
           <strong>C# & .NET</strong>
-          <p>Desenvolvimento backend e arquiteturas robustas</p>
+          <p>Backend development and robust architectures</p>
         </div>
         <div class="skill-item">
           <span class="skill-emoji">🏗️</span>
-          <strong>Arquitetura de Software</strong>
-          <p>Design patterns e boas práticas</p>
+          <strong>Software Architecture</strong>
+          <p>Design patterns and best practices</p>
         </div>
         <div class="skill-item">
           <span class="skill-emoji">📈</span>
-          <strong>Carreira em Tech</strong>
-          <p>Mentoria e desenvolvimento profissional</p>
+          <strong>Tech Career</strong>
+          <p>Mentoring and professional development</p>
         </div>
         <div class="skill-item">
           <span class="skill-emoji">🎯</span>
           <strong>DevOps</strong>
-          <p>Operações e automação</p>
+          <p>Operations and automation</p>
         </div>
       </div>
     </section>
