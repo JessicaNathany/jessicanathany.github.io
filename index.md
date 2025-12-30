@@ -28,7 +28,11 @@ lang: pt
 {% for post in posts %}
   <div class="card">
     {% if post.cover %}
-      <img class="round" src="{{ post.cover }}" alt="Capa do post">
+      {% if post.title contains "projetos backend" %}
+        <img class="small" src="{{ post.cover }}" alt="Capa do post">
+      {% else %}
+        <img class="round" src="{{ post.cover }}" alt="Capa do post">
+      {% endif %}
     {% endif %}
     <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
     <div class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</div>
