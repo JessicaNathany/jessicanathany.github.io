@@ -562,22 +562,3 @@ Acesse `http://localhost:4000` para ver o site local.
 ---
 
 **Parabéns! 🎉** Agora você tem um blog profissional funcionando no GitHub Pages. Comece a escrever e compartilhar seu conhecimento com a comunidade!
-
-Alguma dúvida sobre o processo? Deixe nos comentários que eu ajudo! 😊
-{% for post in posts %}
-  <div class="card">
-    {% if post.cover %}
-      <img class="round" src="{{ post.cover }}" alt="Capa do post">
-    {% endif %}
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <div class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</div>
-    {% if post.excerpt %}
-      <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
-    {% endif %}
-  </div>
-{% endfor %}
-</div>
-{% else %}
-<p>Em breve, novos artigos sobre tecnologia!</p>
-{% endif %}
-```
