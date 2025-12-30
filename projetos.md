@@ -52,4 +52,12 @@ Aqui você encontra alguns dos projetos que desenvolvi, desde APIs backend até 
       <a href="https://github.com/JessicaNathany/rinha-de-backend-2025" target="_blank" class="btn-repo">📁 GitHub</a>
     </div>
   </div>
+
+  <div class="card">
+    <h3>Estrutura de dados com Python</h3>
+    <p>Repositório para estudos de estrutura de dados usando a linguagem Python</p>
+    <div class="project-links">
+      <a href="https://github.com/JessicaNathany/estrutura-dados" target="_blank" class="btn-repo">📁 GitHub</a>
+    </div>
+  </div>
 </div>
