@@ -1,0 +1,95 @@
+---
+---
+/* Base: importa estilos do tema e aplica ajustes */
+@import "{{ site.theme }}";
+
+/* Paleta */
+:root {
+  --accent-blue: #1f6feb; /* azul GitHub-ish (ajustamos se quiser) */
+  --text: #0b0d12;
+  --bg: #ffffff;
+}
+
+/* Layout */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.site-header {
+  border: none;
+  background: var(--bg);
+  padding: 16px 0;
+}
+
+.navbar {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: var(--accent-blue);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin: 32px 0;
+}
+
+.hero .avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-blue);
+}
+
+/* Grid de cards (projetos, artigos) */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 1px solid #e6e8eb;
+  border-radius: 12px;
+  padding: 16px;
+  background: #fff;
+}
+
+.card img.round {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Post */
+.post-meta {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.post-content img {
+  max-width: 100%;
+  border-radius: 12px; /* fotos de artigo arredondadas */
+}

@@ -1,0 +1,25 @@
+title: "Jéssica Nathany"
+description: "Neste blog você encontrará artigos sobre: arquitetura de software, desenvolvimento de software, ferramentas, projetos e conteúdo do livro/podcast."
+author: "Jéssica Nathany"
+url: "https://jessicanathany.github.io"
+baseurl: ""
+markdown: kramdown
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+nav:
+  - label: "Quem sou"
+    url: "/quem-sou"
+  - label: "Artigos"
+    url: "/artigos"
+  - label: "Livro"
+    url: "/livro"
+  - label: "Podcast"
+    url: "/podcast"
+  - label: "Projetos"
+    url: "/projetos"
+
+# Permalinks (URLs de posts)
+permalink: /artigos/:title/

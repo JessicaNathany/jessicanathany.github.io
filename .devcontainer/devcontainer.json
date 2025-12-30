@@ -1,0 +1,24 @@
+{
+  "name": "Jekyll Blog",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:2-4.3-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "shopify.theme-check-vscode",
+        "sissel.shopify-liquid",
+        "ms-vscode.vscode-json"
+      ]
+    }
+  },
+  "postCreateCommand": "bundle install && bundle exec jekyll build",
+  "forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll Server",
+      "onAutoForward": "notify"
+    }
+  }
+}
