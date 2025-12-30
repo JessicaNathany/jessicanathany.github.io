@@ -5,7 +5,7 @@ title: Livro
 
 # Meu livro
 
-## 📖 **Carreira Dev: Hábitos para evoluir no desenvolvimento de software além do código**
+## **Carreira Dev: Hábitos para evoluir no desenvolvimento de software além do código**
 
 ### Sobre o livro
 
@@ -13,12 +13,12 @@ Neste livro, Jessica Nathany explora os aspectos fundamentais da carreira em des
 
 Tudo recheado com aprendizados, experiências e depoimentos de pessoas da área. Você tem aqui um guia de carreira para desbravar o mercado de trabalho com prontidão para acompanhar suas tendências e se preparar para o futuro.
 
-### 🔗 Onde encontrar
+### Onde encontrar
 - [Casa do Código](https://www.casadocodigo.com.br/products/livro-carreira-dev)
 
 ---
 
-## 📚 Sumário 
+## Sumário 
 ### **Parte I: Entre códigos, bugs e cafés – O trabalho por trás da construção de software**
 1. Colaboração e papéis: conhecendo as responsabilidades no time de desenvolvimento de software
 2. Desenvolvedores não só escrevem códigos
