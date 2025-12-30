@@ -7,8 +7,7 @@ lang: pt
 <div class="home-intro">
   <img src="/assets/img/perfil.jpg" alt="Foto Jéssica" class="profile-pic">
   <h1>Bem-vindos ao meu blog!</h1>
-  <p>Sou Jéssica, desenvolvedora de software e fundadora do Café Debug.☕ 
-  <p>Aqui compartilho artigos sobre tecnologia, projetos e ideias.</p>
+  <p>Sou Jéssica, desenvolvedora de software e fundadora do Café Debug.☕ Aqui compartilho artigos sobre tecnologia, projetos e ideias.
 </div>
 
 <nav class="menu">
@@ -28,13 +27,9 @@ lang: pt
 {% for post in posts %}
   <div class="card">
     {% if post.cover %}
-      {% if post.title contains "projetos backend" %}
-        <img class="small" src="{{ post.cover }}" alt="Capa do post">
-      {% else %}
-        <img class="round" src="{{ post.cover }}" alt="Capa do post">
-      {% endif %}
-    {% endif %}
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    {% if post.cover %}
+      <img src="{{ post.cover }}" alt="Capa do post">
+    {% endif %}="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
     <div class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</div>
     {% if post.excerpt %}
       <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
