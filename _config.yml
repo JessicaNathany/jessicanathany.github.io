@@ -1,4 +1,4 @@
-title: "Jéssica Nathany"
+title: "Jéssica Nathany software developer"
 description: "Neste blog você encontrará artigos sobre: arquitetura de software, desenvolvimento de software, ferramentas, projetos e conteúdo do livro/podcast."
 author: "Jéssica Nathany"
 url: "https://jessicanathany.github.io"
@@ -12,6 +12,10 @@ plugins:
 # Desabilita tema padrão para usar CSS customizado
 theme:
 
+# Idiomas suportados
+languages: ["pt", "en"]
+default_lang: "pt"
+
 nav:
   - label: "Quem sou"
     url: "/quem-sou"
@@ -23,6 +27,19 @@ nav:
     url: "/podcast"
   - label: "Projetos"
     url: "/projetos"
+
+# Navegação em inglês
+nav_en:
+  - label: "About"
+    url: "/about"
+  - label: "Articles"
+    url: "/articles"
+  - label: "Book"
+    url: "/book"
+  - label: "Podcast"
+    url: "/podcast-en"
+  - label: "Projects"
+    url: "/projects"
 
 # Permalinks (URLs de posts)
 permalink: /artigos/:title/

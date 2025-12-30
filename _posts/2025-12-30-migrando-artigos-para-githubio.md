@@ -2,7 +2,8 @@
 layout: post
 title: "Como criar um blog completo no GitHub Pages com Jekyll - Guia definitivo"
 date: 2025-12-30
-cover: "/assets/img/githubpages.jpg"
+lang: pt
+cover: "/assets/img/githubpages.png"
 excerpt: "Guia completo passo a passo para criar seu próprio blog no GitHub Pages usando Jekyll, desde a configuração inicial até a publicação de artigos."
 tags: [github-pages, jekyll, blog, tutorial]
 ---

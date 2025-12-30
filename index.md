@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Início"
+lang: pt
 ---
 
 <div class="home-intro">
@@ -20,7 +21,7 @@ title: "Início"
 
 ### Últimos artigos
 
-{% assign posts = site.posts | limit: 6 %}
+{% assign posts = site.posts | where: "lang", "pt" | limit: 6 %}
 {% if posts.size > 0 %}
 <div class="grid">
 {% for post in posts %}

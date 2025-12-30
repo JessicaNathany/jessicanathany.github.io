@@ -2,6 +2,7 @@
 layout: post
 title: "Como uso o Let's Encrypt para proteger meu site com SSL gratuito"
 date: 2025-12-30
+lang: pt
 cover: "/assets/img/ssl-artigo.jpg"
 excerpt: "Aprenda como implementei certificados SSL gratuitos com Let's Encrypt no site do Café Debug, incluindo automação com Certbot e crontab."
 tags: [ssl, security, devops]

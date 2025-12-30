@@ -11,10 +11,26 @@
     <header class="site-header">
       <div class="container">
         <div class="navbar">
-          <a href="{{ '/' | relative_url }}" style="margin-right:auto">{{ site.title }}</a>
-          {% for item in site.nav %}
-            <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
-          {% endfor %}
+          <a href="{% if page.lang == 'en' %}/index-en{% else %}/{% endif %}" class="site-title">{{ site.title }}</a>
+          
+          {% if page.lang == 'en' %}
+            {% for item in site.nav_en %}
+              <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
+            {% endfor %}
+          {% else %}
+            {% for item in site.nav %}
+              <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
+            {% endfor %}
+          {% endif %}
+          
+          <div class="language-selector">
+            <a href="/" class="lang-link {% if page.lang == 'pt' or page.lang == nil %}active{% endif %}" title="Português">
+              🇧🇷
+            </a>
+            <a href="/index-en" class="lang-link {% if page.lang == 'en' %}active{% endif %}" title="English">
+              🇺🇸
+            </a>
+          </div>
         </div>
       </div>
     </header>
