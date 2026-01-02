@@ -33,3 +33,23 @@ I have read a book called “I have already understood” in Portuguese — Eu j
   <img src="/assets/img/learning-pyramid.jpg" alt="imagem artigo cloudflare sobre SSL" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 <br />
+
+In the article Education Corner, by Becton Loveless, he talks about the concept of the learning pyramid. “The learning pyramid, sometimes referred to as the cone of learning, developed by the National Training Laboratory, suggests that most students only remember about 10% of what they read from textbooks, but retain nearly 90% of what they learn through teaching others.”.
+
+The psychiatrist William Glasser (1925–2013) was a scientist and researcher, and he idealized the learning pyramid, a knowledge method in a schematic way, which explains how the human brain assimilates and stores information. Check the illustration below:
+
+- 5% through lecture;
+- 10% through reading;
+- 20% through audiovisual;
+- 30% through demonstration;
+- 50% through discussing with others;
+- 75% through doing;
+- 90% through teaching someone.
+
+As we can observe in the representation pyramid theory, we can retain a greater percentage of knowledge when we teach. Anyway, the best way to retain knowledge is by sharing. For example, we can teach someone about technical concepts about programming, while you teach, you memorize the content.
+
+**References**
+
+https://www.educationcorner.com/the-learning-pyramid/
+https://www.coursera.org/learn/learning-how-to-learn?source=post_page-----9b5fbe0dbaf1---------------------------------------
+https://www.arlo.co/blog/overview-of-the-learning-pyramid-for-training-providers
