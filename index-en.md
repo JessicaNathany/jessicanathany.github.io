@@ -7,7 +7,7 @@ lang: en
 <div class="home-intro">
   <img src="/assets/img/perfil.jpg" alt="Your photo" class="profile-pic">
   <h1>Welcome to my blog!</h1>
-  <p>I'm Jéssica Nathany, developer and here I share knowledge about technology.</p>
+  <p>I'm Jessica, a software developer and founder of Café Debug.☕ Here I share articles about technology, projects, and ideas.</p>
 </div>
 
 <nav class="menu">
