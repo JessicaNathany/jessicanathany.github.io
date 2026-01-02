@@ -55,7 +55,7 @@ Here you can find some of the projects I've developed, from backend APIs to auto
   </div>
 
   <div class="card">
-    <h3>Estrutura de dados com Python</h3>
+    <h3>Data Structure with Python language</h3>
     <p>Repository for data structure studies using Python language</p>
     <div class="project-links">
       <a href="https://github.com/JessicaNathany/estrutura-dados" target="_blank" class="btn-repo"> 📁 GitHub</a>
