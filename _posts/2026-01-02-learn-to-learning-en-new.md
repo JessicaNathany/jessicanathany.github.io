@@ -18,7 +18,7 @@ I have read some books and done some courses about techniques to optimize knowle
 
 ### Get organized
 
-I have read a book called “I have already understood” in Portuguese — Eu já Entendi, by Gladys Mariotto. The book talks about how we can organize our studies and teaches some techniques for our brain to retain information, and it describes the three processes that occur during the learning phase, which are:
+I have read a book called "I have already understood" in Portuguese — Eu já Entendi, by Gladys Mariotto. The book talks about how we can organize our studies and teaches some techniques for our brain to retain information, and it describes the three processes that occur during the learning phase, which are:
 
 - **Read**: Reading provides the initial contact with the content, in any area and in any format;
 
@@ -30,11 +30,11 @@ I have read a book called “I have already understood” in Portuguese — Eu j
 
 <br />
 <div align="center">
-  <img src="/assets/img/learning-pyramid.jpg" alt="imagem artigo cloudflare sobre SSL" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/assets/img/learning-pyramid.jpg" alt="Learning Pyramid Illustration" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 <br />
 
-In the article Education Corner, by Becton Loveless, he talks about the concept of the learning pyramid. “The learning pyramid, sometimes referred to as the cone of learning, developed by the National Training Laboratory, suggests that most students only remember about 10% of what they read from textbooks, but retain nearly 90% of what they learn through teaching others.”.
+In the article Education Corner, by Becton Loveless, he talks about the concept of the learning pyramid. "The learning pyramid, sometimes referred to as the cone of learning, developed by the National Training Laboratory, suggests that most students only remember about 10% of what they read from textbooks, but retain nearly 90% of what they learn through teaching others."
 
 The psychiatrist William Glasser (1925–2013) was a scientist and researcher, and he idealized the learning pyramid, a knowledge method in a schematic way, which explains how the human brain assimilates and stores information. Check the illustration below:
 
@@ -48,10 +48,8 @@ The psychiatrist William Glasser (1925–2013) was a scientist and researcher, a
 
 As we can observe in the representation pyramid theory, we can retain a greater percentage of knowledge when we teach. Anyway, the best way to retain knowledge is by sharing. For example, we can teach someone about technical concepts about programming, while you teach, you memorize the content.
 
-
-
-### References
+## References
 
 - [Education Corner - The Learning Pyramid](https://www.educationcorner.com/the-learning-pyramid/)
 - [Coursera - Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
-- [Arlo - Overview of the Learning Pyramid](https://www.arlo.co/blog/overview-of-the-learning-pyramid-for-training-providers)
+- [Arlo - Overview of the Learning Pyramid for Training Providers](https://www.arlo.co/blog/overview-of-the-learning-pyramid-for-training-providers)
