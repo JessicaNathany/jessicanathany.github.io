@@ -249,6 +249,44 @@ body {
   margin: 1rem 0;
 }
 
+/* Estilos para listas em posts */
+.post-content ul, 
+.post-content ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.post-content li {
+  margin: 0.5rem 0;
+  line-height: 1.7;
+}
+
+.post-content ul li {
+  list-style-type: disc;
+}
+
+.post-content ol li {
+  list-style-type: decimal;
+}
+
+/* Espaçamento entre parágrafo e lista */
+.post-content p + ul,
+.post-content p + ol {
+  margin-top: 1rem;
+}
+
+/* Espaçamento entre lista e próximo elemento */
+.post-content ul + p,
+.post-content ol + p,
+.post-content ul + h1,
+.post-content ol + h1,
+.post-content ul + h2,
+.post-content ol + h2,
+.post-content ul + h3,
+.post-content ol + h3 {
+  margin-top: 1.5rem;
+}
+
 .post-content pre code {
   background: none;
   padding: 0;
