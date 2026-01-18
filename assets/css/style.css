@@ -328,3 +328,65 @@ body {
     gap: 1rem;
   }
 }
+
+/* REGRAS ESPECÍFICAS PARA CORRIGIR ESPAÇAMENTO DE PARÁGRAFOS */
+/* Aplicar com alta prioridade para sobrescrever qualquer conflito */
+
+/* Usar as classes específicas do layout post.html */
+article.post .post-content p {
+  margin-bottom: 2rem !important;
+  margin-top: 0 !important;
+  display: block !important;
+  line-height: 1.7 !important;
+}
+
+/* Espaçamento entre parágrafos consecutivos */
+article.post .post-content p + p {
+  margin-top: 1.8rem !important;
+}
+
+/* Espaçamento após títulos */
+article.post .post-content h2 + p,
+article.post .post-content h3 + p {
+  margin-top: 1.2rem !important;
+}
+
+/* Regras de fallback para outros seletores */
+.post-content p,
+.container p {
+  margin-bottom: 1.8rem !important;
+  margin-top: 0 !important;
+  display: block !important;
+}
+
+/* Espaçamento específico entre elementos consecutivos */
+.post-content p + p,
+.container p + p {
+  margin-top: 1.5rem !important;
+}
+
+/* Reset de qualquer espaçamento conflitante */
+.post-content * + p,
+.container * + p {
+  margin-top: 1.2rem !important;
+}
+
+/* Garantir espaçamento para qualquer parágrafo dentro de posts */
+main p,
+article p,
+.post p {
+  margin-bottom: 1.8rem !important;
+  line-height: 1.7 !important;
+}
+
+/* Regra geral para todos os parágrafos do site */
+p {
+  margin-bottom: 1.5rem !important;
+}
+
+/* Força line-height em todo texto do post */
+article.post .post-content,
+.post-content,
+.container main {
+  line-height: 1.7 !important;
+}
