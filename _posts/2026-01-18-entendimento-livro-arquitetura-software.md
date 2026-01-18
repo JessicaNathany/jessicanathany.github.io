@@ -3,7 +3,7 @@ layout: post
 title: "Resumo do livro Arquitetura de Software: As partes difíceis"
 date: 2026-01-18
 lang: pt
-cover: "/assets/img/teoremacap.jpg"
+cover: "/assets/img/livro-arquitetura-software-partes-dficeis.jpg"
 excerpt: "Resumo e entendimento do livro sobre principais pontos da arquitetura de software, casos complexos e trade-offs das soluções. Um ótimo livro para quem quer estudar melhor arquitetura de software"
 tags: [arquitetura de software, microservices, monolitico, trade-offs]
 ---
@@ -18,7 +18,7 @@ Pois bem, neste artigo, escrevo meu entendimento sobre a leitura do livro que co
 
 Se você gosta de mergulhar profundamente nos assuntos e busca algo mais denso e profundo, essa leitura é pra você. Se você prefere algo mais curto e com menos profundidade, essa leitura não é pra você.
 
-## Sobre o livro
+### Sobre o livro
 
 <br />
 <div align="center">
@@ -37,7 +37,7 @@ Não vou entrar em muitos detalhes no negócio desse sistema, embora no livro el
 
 Todas as decisões adotadas para resolver o problema da migração da Sysops Squad são muito bem justificadas. Isso faz com que você tenha essa visão da arquitetura e aprenda com os argumentos dessas discussões.
 
-## Meu entendimento
+### Meu entendimento
 
 Nas primeiras partes do livro, é descrita a justificativa para a escolha de uma arquitetura de microserviços. Era preciso ter o sistema disponível, escalável e com tolerância a falhas, além de desacoplar módulos importantes do sistema. 
 
@@ -62,7 +62,7 @@ Há outros capítulos do livro que não vou detalhar aqui, mas acho que valem a 
 - **Segunda parte**: traz sobre transações distribuídas, padrão de replicação, gerenciamento de fluxo de trabalho, separação de esquemas, sagas transacionais, etc.
 
 
-## Conclusão
+### Conclusão
 
 Para aqueles que estão focados em mergulhar cada vez mais no entendimento da arquitetura de software, é um ótimo livro que recomendo. O livro não descreve algo como "faça assim, faça assado...". Além de trazer abordagens relacionadas ao problema do negócio, traz muitas coisas que podem dar errado a cada decisão tomada, e isso precisa ser rediscutido para chegar a outros cenários e estratégias.
 
