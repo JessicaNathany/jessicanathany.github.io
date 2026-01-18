@@ -173,38 +173,58 @@ body {
 }
 
 .post-content {
-  line-height: 1.8;
+  line-height: 1.7;
   color: #333;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .post-content p {
-  margin-bottom: 1.8rem;
-  margin-top: 0;
-}
-
-.post-content p + p {
-  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .post-content h2 {
   color: #2c3e50;
-  margin: 2.5rem 0 1.5rem 0;
+  margin: 3rem 0 1.5rem 0;
   font-size: 1.8rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
 }
 
 .post-content h3 {
   color: #2c3e50;
-  margin: 2rem 0 1rem 0;
+  margin: 2.5rem 0 1rem 0;
   font-size: 1.4rem;
 }
 
 .post-content ul, .post-content ol {
   margin-left: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .post-content li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+/* Espaçamento específico para elementos em sequência */
+.post-content p + ul,
+.post-content p + ol {
+  margin-top: 1rem;
+}
+
+.post-content ul + p,
+.post-content ol + p {
+  margin-top: 1.5rem;
+}
+
+/* Melhor formatação para texto em negrito */
+.post-content strong {
+  font-weight: 600;
+  color: #2c3e50;
 }
 
 .post-content pre {
@@ -213,7 +233,8 @@ body {
   border-radius: 4px;
   padding: 1rem;
   overflow-x: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .post-content code {
