@@ -1,10 +1,16 @@
 ---
 layout: post
+
 title: "How to create database MySQL with Docker"
+
 date: 2022-01-22
+
 lang: en
+
 cover: "/assets/img/docker-mysql.jpg"
+
 excerpt: "I'll show how to create a local MySQL database with Docker on your Windows. It is necessary to have the latest version of Docker installed on your machine."
+
 tags: [docker, mysql]
 ---
 

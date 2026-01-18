@@ -1,10 +1,16 @@
 ---
 layout: post
+
 title: "Resumo do livro Arquitetura de Software: As partes difíceis"
+
 date: 2026-01-18
+
 lang: pt
+
 cover: "/assets/img/livro-arquitetura-software-partes-dficeis.jpg"
+
 excerpt: "Resumo e entendimento do livro sobre principais pontos da arquitetura de software, casos complexos e trade-offs das soluções. Um ótimo livro para quem quer estudar melhor arquitetura de software"
+
 tags: [arquitetura de software, microservices, monolitico, trade-offs]
 ---
 

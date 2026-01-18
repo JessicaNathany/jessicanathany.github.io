@@ -1,10 +1,16 @@
 ---
 layout: post
+
 title: "My First Experience Writing a Book"
+
 date: 2025-12-30
+
 lang: en
+
 cover: "/assets/img/livro.png"
+
 excerpt: "Sharing my journey of writing 'Dev Career Habits' - the challenges, process, and lessons learned during my first book-writing experience."
+
 tags: [book, career, software-developer, writing]
 ---
 

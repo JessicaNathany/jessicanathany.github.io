@@ -1,10 +1,16 @@
 ---
 layout: post
+
 title: "Why Software Engineers change stacks or Languages"
+
 date: 2023-04-24
+
 lang: en
+
 cover: "/assets/img/stackoverflow-survey.png"
+
 excerpt: "In this article I wrote about stack or languages developers changing."
+
 tags: [stackoverflow, programming language, stack]
 ---
 

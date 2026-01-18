@@ -1,10 +1,16 @@
 ---
 layout: post
+
 title: "Um breve estudo sobre System Design"
+
 date: 2025-12-30
+
 lang: pt
+
 cover: "/assets/img/cdn.jpg"
+
 excerpt: "Um pequeno artigo que descreve alguns conceitos sobre o que é o system design"
+
 tags: [system design, arquitetura de software, aplicações]
 ---
 
@@ -46,7 +52,7 @@ Esse processo eu fiz no site [Pramp](pramp.com/dashboard#/) que é uma forma de 
 
 Uma popular rede social que contém milhões e bilhões de conexões entre individuos. Desenhar a arquitetura do sistema que permitará usuários fazer pesquisas por outras pessoas, e ver o caminho mais curto.
 
-Requisitos Funcionais
+**Requisitos Funcionais**
 
 - pesquisar outras pessoas
 - quantos nós teremos entre das pessoas
@@ -54,7 +60,7 @@ Requisitos Funcionais
 - 1 milhão de usuários
 - 1 bilhão de conexões
 
-Requisitos Não Funcionais
+**Requisitos Não Funcionais**
 
 - alta disponibilidade
 - consistência
@@ -68,24 +74,23 @@ Tendo os requisitos funcionais e os não funcionais, o segundo passo é criar o 
 
 Antes de analisar a solução do problema, é importante entender alguns conceitos do System Dsign consideramos importantes. Para sua aplicação ter sucesso, é preciso assegurar que o software seja confiável, esteja disponível e seja escalável e claro, de fácil manutenção.
 
-
 <br />
 <div align="center">
   <img src="/assets/img/escalabilidade.jpg" alt="imagem artigo cloudflare sobre SSL" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 <br />
 
-*Confiabilidade*
+**Confiabilidade**
 
 O sistema tem que ser confiável e que satisfaça os requisitos e funcionalidades do usuário, sistema tolerante a falhas, ou seja, mesmo que ocorra uma falha o sistema continua operante para o usuário e não havendo interrupções. Imagina usuários querendo acessar um streamming de filmes e algumas funcionalidades não funciona de forma esperada, isso faz com o que o usuário perca a confiança naquele sistema.
 
-*Disponibilidade*
+**Disponibilidade**
 
 É uma característica do sistema, que deve estar disponível e operando de forma correta, e claro é essencial que o sistema contenha disponibilidade em até alto nível, para servir a outros sistemas que o depende.
 
 Na análise do problema, é discutido que tipo de disponibilidade o sistema deverá ter, isso pode variar de sistema para sistema. Aplicações como rede social por exemplo, pode ter uma demanda alta de disponiblidade mas não tolera lentidão, atrasos de minutos em requisição pode ser algo intolerável para o negócio. Ou outro exemplo são sistemas de alta criticidade como Bancos e Hospitais, que precisam de alta dispoinibilidade pois possuem criteriosidade em seus serviços.
 
-*Escalabilidade*
+**Escalabilidade**
 
 É a capacidade que o sistema tem de lidar com carga crescente, acho que podemos imaginar a situação de um ecommerce, por exemplo. O sistema foi pensado para ser ecalável em um período de black friday, onde há um número muito maior de requisições, acessos, pedidos sendo criado, pedidos sendo despachado, requisições de milhares de produtos na base, integrações e etc. Com isso, esse sistema deve ser eficiente o suficiente para lidar com a carga crescente e com eficiência. E é isso que o torna Escalável.
 
@@ -119,8 +124,11 @@ Não vou entrar em detalhes aqui, até porque o artigo ficaria extenso, mas para
 O CDN(Content Delivery Network) ou Rede de Distribuição de Conteúdo, refere-se a um grupo de servidores distribuídos de forma geográfica que trabalham em conjunto para entregar o conteúdo de forma rápida a internet. O autor Alex Xu colocou em seu livro System Design Interview — An insider’s Guide alguns pontos a se considerar usando o CDN, vejamos:
 
 Preço: o CDN é gerido por fornecedores terceiros, e é cobrado por transferência de dados dentro e fora do CDN. O cache de ativos utilizados com pouca frequência não proporciona benefícios significativos, pelo que deve considerar a sua retirada do CDN.
+
 CDN fallback: deve ser considerado como sua aplicação lida com o CDN, se houver uma parada temporária do CDN, os clientes devem ser capazes de detectar o probleam e solicitar os recursos á origem.
+
 Invalidação de arquivos: pode remover um arquivos do CDN antes deste expirar.
+
 Press enter or click to view image in full size
 
 
@@ -129,7 +137,6 @@ Press enter or click to view image in full size
   <img src="/assets/img/cdn.jpg" alt="imagem artigo cloudflare sobre SSL" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 <br />
-
 
 
 *Load Balancer*
@@ -176,7 +183,7 @@ Como podemos ver acima o System Design é representa os componentes que a plataf
 
 Abaixo temos o System Design do Twitter, se compararmos com o desenho do Netflix, vimos uma quantidade de serviços menor, mas isso não significa ser menos complexo. Se formos escrever o desenho do Twitter, podemos ver que os requerimentos funcionais é a timeline, onde o usuário irá criar e ver twiits de outras pessoas, pesquisar twitts por palavra chave ou tags que estão relacionadas ao assunto etc.
 
-Para ver os melhores detalhes dessa arquitetura, clique neste no [link do vídeo Twitter system design | twitter Software architecture | twitter interview questions](https://www.youtube.com/watch?v=wYk0xPP_P_8).
+Para ver os melhores detalhes dessa arquitetura, clique neste no link [twitter system design](https://www.youtube.com/watch?v=wYk0xPP_P_8).
 
 
 

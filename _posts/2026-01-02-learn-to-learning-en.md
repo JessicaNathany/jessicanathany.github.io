@@ -1,10 +1,16 @@
 ---
 layout: post
+
 title: "Learning to learn: how your brain retains information"
+
 date: 2026-01-02
+
 lang: en
+
 cover: "/assets/img/learning-pyramid.jpg"
+
 excerpt: "Organization is essential for anyone who wants to maintain a study routine. It is quite important to know the best way to study and retain knowledge."
+
 tags: [learning, learning pyramid, knowledge]
 ---
 

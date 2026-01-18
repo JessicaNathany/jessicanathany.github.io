@@ -1,10 +1,16 @@
 ---
 layout: post
+
 title: "Ideias de projetos backend para você praticar"
+
 date: 2025-12-30
+
 lang: pt
+
 cover: "/assets/img/artigo-projeto1.jpg"
+
 excerpt: "Idéias de projetos backend para estudar e praticar"
+
 tags: [projetos, backend, estudos, portfolios]
 ---
 
@@ -68,6 +74,7 @@ utilizar caracteres especiais;
 ter pelo menos 8 caracteres no máximo e no mínimo 6 caracteres;
 ter letra maiúscula no nome;
 ter números como ! “ ? $ ? % ^ & * ( ) _ — + = { [ } ] : ; @ ‘ ~ # | \ < , > . ? /;
+
 ter símbolos:
 
 <hr>

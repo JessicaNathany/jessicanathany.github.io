@@ -1,10 +1,16 @@
 ---
 layout: post
+
 title: "How to Create a Complete Blog on GitHub Pages with Jekyll - Definitive Guide"
+
 date: 2025-12-30
+
 lang: en
+
 cover: "/assets/img/githubpages.png"
+
 excerpt: "Complete step-by-step guide to create your own blog on GitHub Pages using Jekyll, from initial setup to publishing articles."
+
 tags: [github-pages, jekyll, blog, tutorial]
 ---
 
@@ -33,6 +39,7 @@ Creating a technical blog is an excellent way to share knowledge and build your 
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/yourusername.github.io.git
+
 cd yourusername.github.io
 ```
 
@@ -62,10 +69,15 @@ yourusername.github.io/
 
 ```yaml
 title: "Your Name"
+
 description: "Your blog about development and technology"
+
 author: "Your Name"
+
 url: "https://yourusername.github.io"
+
 baseurl: ""
+
 markdown: kramdown
 
 # Build settings

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Book
+lang: en
 ---
 
 <div class="book-page">
