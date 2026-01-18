@@ -177,20 +177,25 @@ body {
   color: #333;
 }
 
+.post-content p {
+  margin-bottom: 1.8rem;
+  margin-top: 0;
+}
+
+.post-content p + p {
+  margin-top: 1.2rem;
+}
+
 .post-content h2 {
   color: #2c3e50;
-  margin: 2rem 0 1rem 0;
+  margin: 2.5rem 0 1.5rem 0;
   font-size: 1.8rem;
 }
 
 .post-content h3 {
   color: #2c3e50;
-  margin: 1.5rem 0 0.5rem 0;
+  margin: 2rem 0 1rem 0;
   font-size: 1.4rem;
-}
-
-.post-content p {
-  margin-bottom: 1.5rem;
 }
 
 .post-content ul, .post-content ol {

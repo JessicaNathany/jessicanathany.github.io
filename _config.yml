@@ -23,7 +23,7 @@ nav:
     url: "/artigos"
   - label: "Livro"
     url: "/livro"
-  - label: "Podcast"
+  - label: "Café Debug"
     url: "/podcast"
   - label: "Projetos"
     url: "/projetos"
